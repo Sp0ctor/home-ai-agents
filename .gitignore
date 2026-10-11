@@ -1,0 +1,17 @@
+# never commit secrets or personal data
+.env
+*.env
+*.key
+*.pem
+id_*
+__pycache__/
+*.pyc
+.DS_Store
+*.beancount.bak
+Inbox/
+Imported/
+Statements/
+recipients.json
+*_state.json
+trip_config.json
+.denylist

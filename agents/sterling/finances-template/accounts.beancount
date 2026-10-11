@@ -1,0 +1,62 @@
+; Chart of accounts. Bank/card/loan accounts are added with: fin_tool.py add-account ...
+2026-01-01 open Equity:Opening-Balances
+2026-01-01 open Assets:Transfers      ; card payments / moves between our own accounts - should net to ~0
+
+; ---------- Income
+2026-01-01 open Income:Salary
+2026-01-01 open Income:Government-Benefits
+2026-01-01 open Income:Interest
+2026-01-01 open Income:Refunds
+2026-01-01 open Income:Other
+
+; ---------- Household spending
+2026-01-01 open Expenses:Home:Mortgage-Rent
+2026-01-01 open Expenses:Home:Utilities
+2026-01-01 open Expenses:Home:Internet-Phone
+2026-01-01 open Expenses:Home:Maintenance
+2026-01-01 open Expenses:Food:Groceries
+2026-01-01 open Expenses:Food:Dining
+2026-01-01 open Expenses:Transport:Fuel
+2026-01-01 open Expenses:Transport:Insurance
+2026-01-01 open Expenses:Transport:Maintenance
+2026-01-01 open Expenses:Transport:Parking-Tolls
+2026-01-01 open Expenses:Health:Medical
+2026-01-01 open Expenses:Health:Insurance
+2026-01-01 open Expenses:Insurance:Other
+2026-01-01 open Expenses:Shopping:General
+2026-01-01 open Expenses:Shopping:Clothing
+2026-01-01 open Expenses:Shopping:Electronics
+2026-01-01 open Expenses:Subscriptions
+2026-01-01 open Expenses:Entertainment
+2026-01-01 open Expenses:Education
+2026-01-01 open Expenses:Travel:Trips
+2026-01-01 open Expenses:Travel:Other
+2026-01-01 open Expenses:Personal:Care
+2026-01-01 open Expenses:Personal:Gifts-Donations
+2026-01-01 open Expenses:Fees:Bank
+2026-01-01 open Expenses:Taxes
+2026-01-01 open Expenses:Cash-Withdrawals
+2026-01-01 open Expenses:Uncategorized     ; Sterling parks unknown charges here for the owner to confirm
+
+; ---------- Rental property (Schedule E)
+2026-01-01 open Income:Rental-1:Owner-Distributions
+2026-01-01 open Income:Rental-1:Rent
+2026-01-01 open Expenses:Rental-1:Management-Fees
+2026-01-01 open Expenses:Rental-1:Repairs
+2026-01-01 open Expenses:Rental-1:Insurance
+2026-01-01 open Expenses:Rental-1:Mortgage-Interest
+2026-01-01 open Expenses:Rental-1:Property-Tax
+2026-01-01 open Expenses:Rental-1:Utilities-HOA
+2026-01-01 open Expenses:Rental-1:Other
+
+; ---------- Side business (Schedule C)
+2026-01-01 open Income:Notary:Fees
+2026-01-01 open Expenses:Notary:Supplies
+2026-01-01 open Expenses:Notary:Software
+2026-01-01 open Expenses:Notary:Bond-Insurance
+2026-01-01 open Expenses:Notary:Advertising
+2026-01-01 open Expenses:Notary:Mileage
+2026-01-01 open Expenses:Notary:Equipment
+2026-01-01 open Expenses:Notary:Fees-Licenses
+
+; ---------- Our accounts (added by fin_tool.py add-account)

@@ -1,0 +1,308 @@
+{
+  "per_day": 20,
+  "pay_floor": 70000,
+  "pay_target": 80000,
+  "resend_after_days": 30,
+  "search_queries": [
+    "desktop support",
+    "IT support",
+    "systems administrator",
+    "service desk",
+    "end user",
+    "endpoint",
+    "Intune",
+    "IT operations"
+  ],
+  "title_keywords": [
+    "IT Support",
+    "Desktop Support",
+    "Deskside",
+    "End User",
+    "End-User",
+    "Service Desk",
+    "Help Desk",
+    "Helpdesk",
+    "Systems Administrator",
+    "System Administrator",
+    "Sysadmin",
+    "IT Operations",
+    "IT Specialist",
+    "IT Technician",
+    "IT Engineer",
+    "Endpoint",
+    "Intune",
+    "Microsoft 365",
+    "M365",
+    "Active Directory",
+    "Identity and Access",
+    "IAM",
+    "Technical Support Engineer",
+    "Field Service Technician",
+    "Windows Administrator",
+    "Workplace Technology",
+    "Client Support"
+  ],
+  "title_exclude": [
+    "Manager",
+    "Director",
+    "Intern",
+    "Internship",
+    "Principal",
+    "Architect",
+    "Software Engineer",
+    "Developer",
+    "Sales",
+    "Recruiter",
+    "VP",
+    "Head of",
+    "Lead",
+    "Chief",
+    "Mainframe",
+    "SAP",
+    "Nurse",
+    "Physician",
+    "Accountant"
+  ],
+  "locations": [
+    "Your City, ST",
+    "Remote"
+  ],
+  "foreign_exclude": [
+    "UK",
+    "United Kingdom",
+    "Canada",
+    "India",
+    "Europe",
+    "EMEA",
+    "APAC",
+    "LATAM",
+    "Philippines",
+    "Mexico",
+    "Brazil",
+    "Germany",
+    "Poland",
+    "Australia",
+    "Ireland",
+    "Spain",
+    "Portugal",
+    "Netherlands",
+    "Singapore",
+    "Japan",
+    "Argentina",
+    "Colombia",
+    "Romania",
+    "Ukraine",
+    "Pakistan",
+    "Nigeria",
+    "South Africa",
+    "Israel"
+  ],
+  "skill_weights": {
+    "Intune": 4,
+    "Active Directory": 4,
+    "Microsoft 365": 3,
+    "M365": 3,
+    "Office 365": 2,
+    "Entra": 3,
+    "Azure AD": 3,
+    "ServiceNow": 3,
+    "Windows 11": 2,
+    "Windows 10": 2,
+    "Group Policy": 2,
+    "VPN": 1,
+    "MFA": 1,
+    "PKI": 2,
+    "smart card": 1,
+    "CAC": 1,
+    "RSA": 1,
+    "asset": 1,
+    "imaging": 1,
+    "SCCM": 1,
+    "MECM": 1,
+    "Tier II": 2,
+    "Tier 2": 2,
+    "Tier III": 1,
+    "VIP": 2,
+    "Security+": 3,
+    "8570": 3,
+    "DoD": 2,
+    "federal": 1,
+    "TS/SCI": 3,
+    "printers": 1,
+    "mobile device": 1,
+    "ITIL": 1,
+    "Network+": 1,
+    "A+": 1
+  },
+  "sources": [
+    {
+      "name": "GDIT",
+      "kind": "workday",
+      "host": "gdit.wd5.myworkdayjobs.com",
+      "tenant": "gdit",
+      "site": "External_Career_Site"
+    },
+    {
+      "name": "Leidos",
+      "kind": "workday",
+      "host": "leidos.wd5.myworkdayjobs.com",
+      "tenant": "leidos",
+      "site": "External"
+    },
+    {
+      "name": "SAIC",
+      "kind": "workday",
+      "host": "saic.wd1.myworkdayjobs.com",
+      "tenant": "saic",
+      "site": "saic"
+    },
+    {
+      "name": "Booz Allen",
+      "kind": "workday",
+      "host": "bah.wd1.myworkdayjobs.com",
+      "tenant": "bah",
+      "site": "BAH_Jobs"
+    },
+    {
+      "name": "Peraton",
+      "kind": "workday",
+      "host": "peraton.wd1.myworkdayjobs.com",
+      "tenant": "peraton",
+      "site": "Peraton"
+    },
+    {
+      "name": "ManTech",
+      "kind": "workday",
+      "host": "mantech.wd1.myworkdayjobs.com",
+      "tenant": "mantech",
+      "site": "External"
+    },
+    {
+      "name": "Northrop Grumman",
+      "kind": "workday",
+      "host": "ngc.wd1.myworkdayjobs.com",
+      "tenant": "ngc",
+      "site": "Northrop_Grumman_External_Site"
+    },
+    {
+      "name": "CACI",
+      "kind": "workday",
+      "host": "caci.wd1.myworkdayjobs.com",
+      "tenant": "caci",
+      "site": "External"
+    },
+    {
+      "name": "Guidehouse",
+      "kind": "workday",
+      "host": "guidehouse.wd1.myworkdayjobs.com",
+      "tenant": "guidehouse",
+      "site": "External"
+    },
+    {
+      "name": "Maximus",
+      "kind": "workday",
+      "host": "maximus.wd1.myworkdayjobs.com",
+      "tenant": "maximus",
+      "site": "Maximus"
+    },
+    {
+      "name": "KBR",
+      "kind": "workday",
+      "host": "kbr.wd5.myworkdayjobs.com",
+      "tenant": "kbr",
+      "site": "KBR_Careers"
+    },
+    {
+      "name": "Parsons",
+      "kind": "workday",
+      "host": "parsons.wd5.myworkdayjobs.com",
+      "tenant": "parsons",
+      "site": "Search"
+    },
+    {
+      "name": "Amentum",
+      "kind": "workday",
+      "host": "amentum.wd1.myworkdayjobs.com",
+      "tenant": "amentum",
+      "site": "Amentum_Careers"
+    },
+    {
+      "name": "Anduril",
+      "kind": "greenhouse",
+      "token": "andurilindustries"
+    },
+    {
+      "name": "Scale AI",
+      "kind": "greenhouse",
+      "token": "scaleai"
+    },
+    {
+      "name": "Cloudflare",
+      "kind": "greenhouse",
+      "token": "cloudflare"
+    },
+    {
+      "name": "GitLab",
+      "kind": "greenhouse",
+      "token": "gitlab"
+    },
+    {
+      "name": "Justworks",
+      "kind": "greenhouse",
+      "token": "justworks"
+    },
+    {
+      "name": "Wisetack",
+      "kind": "greenhouse",
+      "token": "wisetack"
+    },
+    {
+      "name": "Palantir",
+      "kind": "lever",
+      "token": "palantir"
+    },
+    {
+      "name": "Shield AI",
+      "kind": "lever",
+      "token": "shieldai"
+    },
+    {
+      "name": "Notion",
+      "kind": "ashby",
+      "token": "notion"
+    },
+    {
+      "name": "Confluent",
+      "kind": "ashby",
+      "token": "confluent"
+    },
+    {
+      "name": "Remotive",
+      "kind": "remotive"
+    },
+    {
+      "name": "RemoteOK",
+      "kind": "remoteok"
+    },
+    {
+      "name": "JobSpy (Indeed, LinkedIn, ZipRecruiter, Google Jobs)",
+      "kind": "jobspy",
+      "queries": [
+        "desktop support",
+        "IT support specialist",
+        "systems administrator",
+        "Intune"
+      ],
+      "sites": [
+        "indeed",
+        "linkedin",
+        "zip_recruiter",
+        "google"
+      ],
+      "location": "Your City, ST",
+      "distance": 40,
+      "hours_old": 72,
+      "results": 25
+    }
+  ]
+}

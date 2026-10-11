@@ -1,0 +1,25 @@
+{
+  "title": "Portugal 2027",
+  "start": "2027-05-01",
+  "end": "2027-05-08",
+  "home_tz": "America/New_York",
+  "cities": {
+    "home":   ["Home", 40.7128, -74.0060, "America/New_York", "US", "USD"],
+    "lisbon": ["Lisbon", 38.7223, -9.1393, "Europe/Lisbon", "PT", "EUR"],
+    "porto":  ["Porto", 41.1579, -8.6291, "Europe/Lisbon", "PT", "EUR"],
+    "sintra": ["Sintra", 38.7980, -9.3880, "Europe/Lisbon", "PT", "EUR"]
+  },
+  "city_words": {"lisbon": "lisbon", "lisboa": "lisbon", "porto": "porto"},
+  "day_trips": {"sintra": "sintra"},
+  "airports": {
+    "JFK": ["New York JFK", "America/New_York", "home"],
+    "LIS": ["Lisbon Humberto Delgado", "Europe/Lisbon", "lisbon"],
+    "OPO": ["Porto Francisco Sa Carneiro", "Europe/Lisbon", "porto"]
+  },
+  "places": {
+    "lisbonhotel": ["Example Hotel, Baixa, Lisbon", 38.7110, -9.1366],
+    "belem": ["Belem Tower, Lisbon", 38.6916, -9.2160],
+    "portohotel": ["Example Hotel, Ribeira, Porto", 41.1408, -8.6131]
+  },
+  "hotel_place": {"lisbon": "lisbonhotel", "porto": "portohotel"}
+}

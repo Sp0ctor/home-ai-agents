@@ -1,0 +1,10 @@
+; the household - finances. Kept by Sterling. Open the dashboard: http://127.0.0.1:5055
+; Don't edit by hand unless you know Beancount; ask Sterling instead.
+option "title" "Household Finances"
+option "operating_currency" "USD"
+2026-01-01 custom "fava-option" "language" "en"
+2026-01-01 custom "fava-option" "default-page" "income_statement/"
+
+include "accounts.beancount"
+include "budgets.beancount"
+include "transactions/*.beancount"

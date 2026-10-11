@@ -1,0 +1,1 @@
+; Monthly budgets (shown in the dashboard and Sterling's monthly report). Set with: fin_tool.py budget <Account> <amount>
